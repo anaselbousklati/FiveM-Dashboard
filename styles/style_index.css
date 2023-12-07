@@ -1,0 +1,155 @@
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar {
+    background-color: #292929;
+    border-bottom: 3px solid #9c27b0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo img {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+.navbar-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.navbar-link:hover {
+    background-color: #9c27b0;
+    border-radius: 5px;
+}
+
+.navbar-link:last-child {
+    margin-right: 0;
+}
+
+.navbar-link2 {
+    color: #ffffff;
+    border: 3px solid #9c27b0;
+    background-color: #292929;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.navbar-link2:hover {
+    border: 3px solid #9c27b0;
+    background-color: #9c27b0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.navbar-link2:last-child {
+    margin-right: 0;
+}
+
+.card {
+    border: 3px solid #9c27b0;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.div-class {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dark-table {
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #9c27b0;
+    max-width: 88%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #9c27b0;
+}
+
+th,
+td {
+    border: 1px solid #9c27b0;
+}
+
+tr:nth-child(even) {
+    background-color: #444;
+}
+
+tr:nth-child(odd) {
+    background-color: #333;
+}
+
+.table-button {
+    display: inline-block;
+    color: #fff;
+    background-color: #292929;
+    border: 3px solid #9c27b0;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.table-button:hover {
+    background-color: #9c27b0;
+    border-color: #9c27b0;
+}
+
+.table-button:last-child {
+    margin-right: 0;
+}

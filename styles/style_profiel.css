@@ -1,0 +1,151 @@
+body {
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.navbar {
+    background-color: #292929;
+    border-bottom: 3px solid #9c27b0;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo img {
+    max-width: 60px;
+    margin-right: 10px;
+}
+
+.name {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.navbar-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.navbar-link:hover {
+    background-color: #9c27b0;
+    border-radius: 5px;
+}
+
+.navbar-link:last-child {
+    margin-right: 0;
+}
+
+.navbar-link2 {
+    color: #ffffff;
+    border: 3px solid #9c27b0;
+    background-color: #292929;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.navbar-link2:hover {
+    border: 3px solid #9c27b0;
+    background-color: #9c27b0;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.navbar-link2:last-child {
+    margin-right: 0;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+.profile-icon {
+    width: 100px;
+    /* Adjust size as needed */
+    height: 100px;
+    /* Adjust size as needed */
+    background-color: #555;
+    /* Placeholder color */
+    border-radius: 50%;
+    margin-right: 20px;
+    overflow: hidden;
+    /* Hide any part of the image that exceeds the container */
+}
+
+.profile-icon img {
+    width: 100%;
+    /* Make the image fill the container */
+    height: 100%;
+    /* Make the image fill the container */
+    object-fit: cover;
+    /* Scale the image to cover the container while maintaining aspect ratio */
+}
+
+.profile-details {
+    font-size: 1.2rem;
+}
+
+.profile-money {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card {
+    border: 3px solid #9c27b0;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+}
+
+.card-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.center {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.purple-button {
+    background-color: #292929;
+    border: 3px solid #9c27b0;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purple-button:hover {
+    background-color: #9c27b0;
+}
